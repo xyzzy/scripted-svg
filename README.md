@@ -1,4 +1,4 @@
-# Welcome to Javascript Animated SVG graphics
+# Welcome to javascript animated SVG graphics
 
 Example of embedded javascript in a `SVG` image. Coding `SVG` is like coding `HTML` canvas.
 
@@ -22,7 +22,7 @@ Parked here for historics and inspirations.
 <p>Some suggested ways of using a `SVG` image (size is 500x500):</p>
 
 <dl>
-<dt>Inline image (with javascript disabled) wrapped in whatever you please</dt>
+<dt>Inline image (with javascript disabled) wrapped in whatever you pleases</dt>
 <dd>
 
 ```html
@@ -32,7 +32,7 @@ Parked here for historics and inspirations.
 <img src="scripted-svg.svg" width="200" height="200" alt="SVC">
 </dd>
 
-<dt>Inline image (with javascript enabled) wrapped in whatever you please</dt>
+<dt>Inline image (with javascript enabled) wrapped in whatever you pleases</dt>
 <dd>
 
 ```html
@@ -78,7 +78,7 @@ Parked here for historics and inspirations.
 
 # Versioning
 
-Using [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/RockingShip/scripted-svg/tags).
+Using [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/xyzzy/scripted-svg/tags).
 
 # License
 
