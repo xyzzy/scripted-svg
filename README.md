@@ -11,17 +11,17 @@ Parked here for historics and inspirations.
 
 # Demonstration
 
-<p>View the `HTML` version for interactive example: [https://xyzzy.github.io/scripted-svg](https://xyzzy.github.io/scripted-svg)</p>
+View the `HTML` version for interactive example: [https://xyzzy.github.io/scripted-svg](https://xyzzy.github.io/scripted-svg)
 
-<p>The SVG is interactive. You can drag the black pads to change the curve.</p>
+The SVG is interactive. You can drag the black pads to change the curve.
 
-<p>You need to host the `SVG` image on gh-pages.</p>
+You need to host the `SVG` image on gh-pages.
 
-<p>Referencing the repository version will not work as GitHub does not consider `SVG` an image.</p>
+Referencing the repository version will not work as GitHub does not consider `SVG` an image.
 
-<p>Standard `README.md` links do not open in a new window.</p>
+Standard `README.md` links do not open in a new window.
 
-<p>Some suggested ways of using a `SVG` image (size is 500x500):</p>
+Some suggested ways of using a `SVG` image (size is 500x500):
 
 <dl>
 <dt>Inline image (with javascript disabled) wrapped in whatever you pleases</dt>
@@ -43,8 +43,9 @@ Parked here for historics and inspirations.
 
 <embed src="https://xyzzy.github.io/scripted-svg/scripted-svg.svg" type="image/svg+xml">
 
-<p>NOTE: Will only work in `HTML` as `README.md` removes `<embed>` tags, Otherwise: `SVG` is interactive, you can move the black pads to change the curve.</p>
-<p>NOTE: Avoid loading from `raw.githubusercontent.com`, it sends the `HTTP` header `"Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox"` which disables the javascript.</p>
+NOTE: Will only work in `HTML` as `README.md` removes `<embed>` tags, Otherwise: `SVG` is interactive, you can move the black pads to change the curve.
+
+NOTE: Avoid loading from `raw.githubusercontent.com`, it sends the `HTTP` header `"Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox"` which disables the javascript.
 </dd>
 
 <dt>For `README.md` combine both, javascript disabled preview that opens new tab with enabled version</dt>
@@ -56,7 +57,7 @@ Parked here for historics and inspirations.
 
 <a href="https://xyzzy.github.io/scripted-svg/scripted-svg.svg" target="_blank"><img src="scripted-svg.svg" width="200" height="200" alt="SVC"></a>
 
-<p>NOTE: The `SVG` when opened will full-screen.</p>
+NOTE: The `SVG` when opened will full-screen.
 </dd>
 
 <dt>Wrap the `SVG` with HTML to apply styling</dt>
