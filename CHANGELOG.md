@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 1.0.0 2020-10-01 10:29:40
+
 ```
 2020-09-29 00:20:51 Initial commit.
 ```
+
+[Unreleased]: https://github.com/xyzzy/scripted-svg/compare/v1.0.0...HEAD
