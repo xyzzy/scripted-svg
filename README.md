@@ -15,11 +15,10 @@ View the `HTML` version for interactive example: [https://xyzzy.github.io/script
 
 The SVG is interactive. You can drag the black pads to change the curve.
 
-You need to host the `SVG` image on gh-pages.
+You need to host the `SVG` image on GitHub-pages.
+Using the repository version (`raw.githubusercontent.com`) will not work as GitHub sends the `HTTP` header `"Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox"` which disables the javascript.
 
-Referencing the repository version will not work as GitHub does not consider `SVG` an image.
-
-Standard `README.md` links do not open in a new window.
+Standard `README.md` links do not open in a new window and `![]()` images miss resizing abilities.
 
 Some suggested ways of using a `SVG` image (size is 500x500):
 
@@ -45,7 +44,7 @@ Some suggested ways of using a `SVG` image (size is 500x500):
 
 NOTE: Will only work in `HTML` as `README.md` removes `<embed>` tags, Otherwise: `SVG` is interactive, you can move the black pads to change the curve.
 
-NOTE: Avoid loading from `raw.githubusercontent.com`, it sends the `HTTP` header `"Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox"` which disables the javascript.
+NOTE: `HTML` version: [https://xyzzy.github.io/scripted-svg](https://xyzzy.github.io/scripted-svg)
 </dd>
 
 <dt>For `README.md` combine both, javascript disabled preview that opens new tab with enabled version</dt>

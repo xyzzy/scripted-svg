@@ -42,14 +42,15 @@
 
 <p>The SVG is interactive. You can drag the black pads to change the curve.</p>
 
-<p>You need to host the `SVG` image on gh-pages.</p>
+<p>You need to host the `SVG` image on GitHub-pages.
+	Using the repository version (<samp>raw.githubusercontent.com</samp>) will not work as GitHub sends the HTTP header <samp>"Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox"</samp> which disables the javascript.</p>
 
-<p>Standard `README.md` links do not open in a new window.</p>
+<p>Standard `README.md` links do not open in a new window and `![]()` images miss resizing abilities.</p>
 
 <p>Some suggested ways of using a `SVG` image (size is 500x500):</p>
 
 <dl>
-<dt>Inline image (with javascript disabled) wrapped in whatever you please</dt>
+<dt>Inline image (with javascript disabled) wrapped in whatever you pleases</dt>
 <dd>
 
 <pre>
@@ -59,7 +60,7 @@
 <p><img src="scripted-svg.svg" alt="SVG" width="200" height="200"></p>
 </dd>
 
-<dt>Inline image (with javascript enabled) wrapped in whatever you please</dt>
+<dt>Inline image (with javascript enabled) wrapped in whatever you pleases</dt>
 <dd>
 
 <pre>
@@ -70,7 +71,6 @@
 
 <p>NOTE: `SVG` is interactive, you can move the black pads to change the curve.</p>
 <p>NOTE: The scaling has unexpected effects with the mouse event handlers.</p>
-<p>NOTE: Avoid loading from `raw.githubusercontent.com`, it sends the `HTTP` header `"Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox"` which disables the javascript.</p>
 
 </dd>
 
