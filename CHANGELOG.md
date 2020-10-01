@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ```
+2020-10-01 11:14:32 Refer to gh-pages for interactive example.
 2020-10-01 10:44:03 Fixed typos.
 ```
 

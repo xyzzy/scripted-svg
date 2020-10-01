@@ -11,6 +11,8 @@ Parked here for historics and inspirations.
 
 # Demonstration
 
+<p>View the `HTML` version for interactive example: [https://xyzzy.github.io/scripted-svg](https://xyzzy.github.io/scripted-svg)</p>
+
 <p>The SVG is interactive. You can drag the black pads to change the curve.</p>
 
 <p>You need to host the `SVG` image on gh-pages.</p>
