@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ```
+2021-02-17 20:39:56 Updated: Headings in `README.md`.
 2020-10-02 16:06:30 Corrected DOCTYPE.
 2020-10-01 11:51:46 Corrected text.
 2020-10-01 11:17:24 Cleanup README.md.
