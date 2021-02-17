@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [Version 1.1.0] 2021-02-17 20:49:49
+
 ```
 2021-02-17 20:39:56 Updated: Headings in `README.md`.
 2020-10-02 16:06:30 Corrected DOCTYPE.
@@ -16,10 +18,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 2020-10-01 10:44:03 Fixed typos.
 ```
 
-## 1.0.0 2020-10-01 10:29:40
+## Version 1.0.0 2020-10-01 10:29:40
 
 ```
 2020-09-29 00:20:51 Initial commit.
 ```
 
-[Unreleased]: https://github.com/xyzzy/scripted-svg/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/xyzzy/scripted-svg/compare/v1.1.0...HEAD
+[Version 1.1.0]: https://github.com/xyzzy/scripted-svg/compare/v1.0.0...v1.1.0
