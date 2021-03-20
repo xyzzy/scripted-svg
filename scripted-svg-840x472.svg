@@ -1,45 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" onload="run()">
-    <defs>
-	<desc>
-		/*
-        *  This file is part of scripted-svg, Scripted SVG graphics
-        *  Copyright (C) 2020, xyzzy@rockingship.org
-		 *
-		 * This program is free software: you can redistribute it and/or modify
-		 * it under the terms of the GNU Affero General Public License as published
-		 * by the Free Software Foundation, either version 3 of the License, or
-		 * (at your option) any later version.
-		 *
-		 * This program is distributed in the hope that it will be useful,
-		 * but WITHOUT ANY WARRANTY; without even the implied warranty of
-		 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-		 * GNU Affero General Public License for more details.
-		 *
-		 * You should have received a copy of the GNU Affero General Public License
-		 * along with this program. If not, see "https://www.gnu.org/licenses/."
-		 */
-	</desc>
-	<style>
-		path {
-			pointer-events: none;
-		}
-	</style>
-    </defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 840 472" onload="run()">
+	<defs>
+		<desc>
+			/*
+			 *  This file is part of scripted-svg, Scripted SVG graphics
+			 *  Copyright (C) 2020, xyzzy@rockingship.org
+			 *
+			 * This program is free software: you can redistribute it and/or modify
+			 * it under the terms of the GNU Affero General Public License as published
+			 * by the Free Software Foundation, either version 3 of the License, or
+			 * (at your option) any later version.
+			 *
+			 * This program is distributed in the hope that it will be useful,
+			 * but WITHOUT ANY WARRANTY; without even the implied warranty of
+			 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+			 * GNU Affero General Public License for more details.
+			 *
+			 * You should have received a copy of the GNU Affero General Public License
+			 * along with this program. If not, see "https://www.gnu.org/licenses/."
+			 */
+		</desc>
+		<style>
+			path {
+			    pointer-events: none;
+			}
+		</style>
+	</defs>
 
-    <circle id="pad1" r="10" stroke="none" fill="#000" cx="38" cy="176"/>
-    <circle id="pad2" r="10" stroke="none" fill="#000" cx="231" cy="459"/>
-    <circle id="pad3" r="10" stroke="none" fill="#000" cx="215" cy="188"/>
-    <circle id="pad4" r="10" stroke="none" fill="#000" cx="439" cy="368"/>
-    <circle id="pad5" r="10" stroke="none" fill="#000" cx="322" cy="82"/>
+	<circle id="pad1" stroke="none" cx="84" cy="232" fill="#888" r="20"/>
+	<circle id="pad2" stroke="none" cx="523" cy="380" fill="#888" r="20"/>
+	<circle id="pad3" stroke="none" cx="528" cy="127" fill="#888" r="20"/>
+	<circle id="pad4" stroke="none" cx="407" cy="318" fill="#888" r="20"/>
+	<circle id="pad5" stroke="none" cx="723" cy="66" fill="#888" r="20"/>
 
-    <path id="path2" stroke-width="2" stroke="#ccc" fill="none" d="M38,176L34,295L193,482L231,459L269,436L184,204L215,188L246,172L392,371L439,368L486,365L433,159L322,82L211,5L42,57z"/>
-    <path id="path1" stroke-width="2" stroke="#00f" fill="none" d="M38,176 C34,295 193,482 231,459 S184,204 215,188 S392,371 439,368 S433,159 322,82 S42,57 38,176 z"/>
-    <path id="path3" stroke-width="2" stroke="#0f0" fill="#0f0" d="M37,210.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M37,213L83,353M83,350.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M83,353L205,475M205,472a2.5,2 0 1,0 0,5 a2,2.5 0 1,0 0,-5M243,449.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M243,452L243,364M243,361.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M243,364L194,199M194,196.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M225,180.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M225,183L291,234M291,231.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M291,234L407,370M407,367.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M454,364.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M454,367L470,301M470,298.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M470,301L399,135M399,132a2.5,2 0 1,0 0,5 a2,2.5 0 1,0 0,-5M288,55.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M288,58L159,21M159,18.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M159,21L41,94M41,91.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5"/>
-    <path id="path4" stroke-width="2" stroke="#f00" fill="#f00" d="M51,253.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M51,256L121,391M121,388.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M243,422a2.5,2 0 1,0 0,5 a2,2.5 0 1,0 0,-5M243,425L228,313M228,310.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M245,196.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M245,199L327,276M327,273.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M459,344.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M459,347L448,250M448,247.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M248,44.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M248,47L122,44M122,41.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5"/>
-    <path id="path5" stroke-width="2" stroke="#000" fill="#000" d="M73,296a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M238,388a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M270,221a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M456,315a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M209,44a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5"/>
+	<path id="path2" stroke-width="2" stroke="#888" fill="none" d="M84,232L18,335L373,432L523,380L673,328L618,129L528,127L438,125L314,321L407,318L500,315L811,112L723,66L635,20L150,129z" />
+	<path id="path1" stroke-width="2" stroke="#00f" fill="none" d="M84,232 C18,335 373,432 523,380 S618,129 528,127 S314,321 407,318 S811,112 723,66 S150,129 84,232 z" />
+	<path id="path3" stroke-width="2" stroke="#0f0" fill="#0f0" d="M67,258a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M67,259L110,360M110,359a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M110,360L412,418M412,417a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M562,365a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M562,366L659,276M659,275a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M659,276L595,128M595,127a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M505,125a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M505,126L406,176M406,175a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M406,176L338,320M338,319a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M431,316a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M431,317L581,262M581,261a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M581,262L788,100M788,99a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M700,53a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M700,54L509,48M509,47a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M509,48L133,156M133,155a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2" />
+	<path id="path4" stroke-width="2" stroke="#f00" fill="#f00" d="M78,284a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M78,285L189,375M189,374a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M587,342a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M587,343L642,238M642,237a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M479,138a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M479,139L388,213M388,212a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M470,302a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M470,303L635,220M635,219a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M650,51a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M650,52L411,76M411,75a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2"/>
+	<path id="path5" stroke-width="2" stroke="#000" fill="#000" d="M107,306a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M601,314a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M455,156a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M513,279a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2M588,56a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2" />
 
-    <script type="text/javascript"><![CDATA[
+	<script type="text/javascript"><![CDATA[
 
 let path1 = document.getElementById("path1");
 let path2 = document.getElementById("path2");
@@ -53,15 +52,17 @@ let pads = [
 	document.getElementById("pad4"),
 	document.getElementById("pad5")
 ];
-let width = 500;
-let height = 500;
-let R = 1; // stroke width
+
+let R = 2; // stroke width
 
 function Curve() {
+	this.A = [{ x: 84, y: 232 }, { x: 523, y: 380 }, { x: 528, y: 127 }, { x: 407, y: 318 }, { x: 723, y: 66 }];
+	this.B = [{x: 0, y: 0}, {x: 0, y: 0}, {x: 0, y: 0}, {x: 0, y: 0}, {x: 0, y: 0}];
+	this.C = [{x: 0, y: 0}, {x: 0, y: 0}, {x: 0, y: 0}, {x: 0, y: 0}, {x: 0, y: 0}];
 
-	this.A = [{ x: 38, y: 176 }, { x: 231, y: 459 }, { x: 215, y: 188 }, { x: 439, y: 368 }, { x: 322, y: 82 }];
-	this.B = [{"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}];
-	this.C = [{"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}];
+		// snap to grid
+		for (let i = 0; i < this.A.length; i++)
+			this.A[i] = {x: Math.round(this.A[i].x), y: Math.round(this.A[i].y)};
 
 	this.calc = function () {
 
@@ -95,6 +96,10 @@ function Curve() {
 			C[i].x = 2 * A[(i + 1) % N].x - B[(i + 1) % N].x;
 			C[i].y = 2 * A[(i + 1) % N].y - B[(i + 1) % N].y;
 		}
+
+		// snap to grid
+		for (let i = 0; i < this.C.length; i++)
+			this.C[i] = {x: Math.round(this.C[i].x), y: Math.round(this.C[i].y)};
 	};
 
 	this.draw = function (t) {
@@ -135,6 +140,13 @@ function Curve() {
 				 {x: Math.round(B[i].x * (1 - t) + C[i].x * t), y: Math.round(B[i].y * (1 - t) + C[i].y * t)},
 				 {x: Math.round(C[i].x * (1 - t) + A[(i + 1) % N].x * t), y: Math.round(C[i].y * (1 - t) + A[(i + 1) % N].y * t)}];
 		}
+		// snap to grid
+		for (let i = 0; i < D1.length; i++)
+			D1[i] = [
+			 {x: Math.round(D1[i][0].x), y: Math.round(D1[i][0].y)},
+			 {x: Math.round(D1[i][1].x), y: Math.round(D1[i][1].y)},
+			 {x: Math.round(D1[i][2].x), y: Math.round(D1[i][2].y)} ];
+
 		d = '';
 		for (let i = 0; i < N; i++) {
 			const d1 = D1[i];
@@ -154,6 +166,12 @@ function Curve() {
 			D2[i] = [{x: Math.round(D1[i][0].x * (1 - t) + D1[i][1].x * t), y: Math.round(D1[i][0].y * (1 - t) + D1[i][1].y * t)},
 				 {x: Math.round(D1[i][1].x * (1 - t) + D1[i][2].x * t), y: Math.round(D1[i][1].y * (1 - t) + D1[i][2].y * t)}];
 		}
+		// snap to grid
+		for (let i = 0; i < D2.length; i++)
+			D2[i] = [
+			 {x: Math.round(D2[i][0].x), y: Math.round(D2[i][0].y)},
+			 {x: Math.round(D2[i][1].x), y: Math.round(D2[i][1].y)} ];
+
 		d = '';
 		for (let i = 0; i < N; i++) {
 			const d2 = D2[i];
@@ -170,8 +188,12 @@ function Curve() {
 		for (let i = 0; i < N; i++) {
 			D3[i] = [{x: Math.round(D2[i][0].x * (1 - t) + D2[i][1].x * t), y: Math.round(D2[i][0].y * (1 - t) + D2[i][1].y * t)}];
 		}
+		// snap to grid
+		for (let i = 0; i < D3.length; i++)
+			D3[i] = [
+			 {x: Math.round(D3[i][0].x), y: Math.round(D3[i][0].y)} ];
 		d = '';
-		for (let i = 0; i < N; i++) {
+		for (let i = 0; i < D3.length; i++) {
 			const d3 = D3[i];
 			d += 'M' + d3[0].x + ',' + (d3[0].y - 2) + 'a' + R + ',' + R + ' 0 1,0 0,' + (R * 2) + ' a' + R + ',' + R + ' 0 1,0 0,-' + (R * 2); // dot1
 		}
@@ -180,20 +202,11 @@ function Curve() {
 }
 
 function setDimensions() {
-	R = Math.min(width, height) / 200; // stroke width
-
-	// set line heights
-	path1.setAttribute("stroke-width", R.toString());
-	path2.setAttribute("stroke-width", R.toString());
-	path3.setAttribute("stroke-width", R.toString());
-	path4.setAttribute("stroke-width", R.toString());
-	path5.setAttribute("stroke-width", R.toString());
 	// set pads
 	for (let i = 0; i < pads.length; i++) {
 		pads[i].setAttribute("cx", window.curve.A[i].x.toString());
 		pads[i].setAttribute("cy", window.curve.A[i].y.toString());
-		pads[i].setAttribute("r", (R * 4).toString());
-		// give pads theid index for event handler
+		// give pads their index for event handler
 		pads[i].padNr = i;
 
 	}
@@ -207,7 +220,7 @@ window.curve = new Curve();
 // scale coordinates to svg size
 setDimensions();
 // setup curve
-window.curve.calc(width, height);
+window.curve.calc();
 
 // state for event handlers
 let curel = 0, x0, y0, elx, ely;

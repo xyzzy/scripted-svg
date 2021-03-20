@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" onload="run()">
+    <defs>
+	<desc>
+		/*
+        *  This file is part of scripted-svg, Scripted SVG graphics
+        *  Copyright (C) 2020, xyzzy@rockingship.org
+		 *
+		 * This program is free software: you can redistribute it and/or modify
+		 * it under the terms of the GNU Affero General Public License as published
+		 * by the Free Software Foundation, either version 3 of the License, or
+		 * (at your option) any later version.
+		 *
+		 * This program is distributed in the hope that it will be useful,
+		 * but WITHOUT ANY WARRANTY; without even the implied warranty of
+		 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+		 * GNU Affero General Public License for more details.
+		 *
+		 * You should have received a copy of the GNU Affero General Public License
+		 * along with this program. If not, see "https://www.gnu.org/licenses/."
+		 */
+	</desc>
+	<style>
+		path {
+			pointer-events: none;
+		}
+	</style>
+    </defs>
+
+    <circle id="pad1" r="30" stroke="none" fill="#000" cx="38" cy="176"/>
+    <circle id="pad2" r="30" stroke="none" fill="#000" cx="231" cy="459"/>
+    <circle id="pad3" r="30" stroke="none" fill="#000" cx="215" cy="188"/>
+    <circle id="pad4" r="30" stroke="none" fill="#000" cx="439" cy="368"/>
+    <circle id="pad5" r="30" stroke="none" fill="#000" cx="322" cy="82"/>
+
+    <path id="path2" stroke-width="6" stroke="#ccc" fill="none" d="M38,176L34,295L193,482L231,459L269,436L184,204L215,188L246,172L392,371L439,368L486,365L433,159L322,82L211,5L42,57z"/>
+    <path id="path1" stroke-width="6" stroke="#00f" fill="none" d="M38,176 C34,295 193,482 231,459 S184,204 215,188 S392,371 439,368 S433,159 322,82 S42,57 38,176 z"/>
+    <path id="path3" stroke-width="6" stroke="#0f0" fill="#0f0" d="M37,210.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M37,213L83,353M83,350.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M83,353L205,475M205,472a2.5,2 0 1,0 0,5 a2,2.5 0 1,0 0,-5M243,449.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M243,452L243,364M243,361.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M243,364L194,199M194,196.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M225,180.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M225,183L291,234M291,231.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M291,234L407,370M407,367.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M454,364.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M454,367L470,301M470,298.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M470,301L399,135M399,132a2.5,2 0 1,0 0,5 a2,2.5 0 1,0 0,-5M288,55.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M288,58L159,21M159,18.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M159,21L41,94M41,91.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5"/>
+    <path id="path4" stroke-width="6" stroke="#f00" fill="#f00" d="M51,253.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M51,256L121,391M121,388.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M243,422a2.5,2 0 1,0 0,5 a2,2.5 0 1,0 0,-5M243,425L228,313M228,310.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M245,196.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M245,199L327,276M327,273.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M459,344.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M459,347L448,250M448,247.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M248,44.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M248,47L122,44M122,41.5a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5"/>
+    <path id="path5" stroke-width="6" stroke="#000" fill="#000" d="M73,296a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M238,388a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M270,221a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M456,315a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5M209,44a2,2.5 0 1,0 0,5 a2,2.5 0 1,0 0,-5"/>
+
+    <script type="text/javascript"><![CDATA[
+
+let path1 = document.getElementById("path1");
+let path2 = document.getElementById("path2");
+let path3 = document.getElementById("path3");
+let path4 = document.getElementById("path4");
+let path5 = document.getElementById("path5");
+let pads = [
+	document.getElementById("pad1"),
+	document.getElementById("pad2"),
+	document.getElementById("pad3"),
+	document.getElementById("pad4"),
+	document.getElementById("pad5")
+];
+let R = 6; // stroke width
+
+function Curve() {
+
+	this.A = [{ x: 38, y: 176 }, { x: 231, y: 459 }, { x: 215, y: 188 }, { x: 439, y: 368 }, { x: 322, y: 82 }];
+	this.B = [{"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}];
+	this.C = [{"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}, {"x": 0, "y": 0}];
+
+	this.calc = function () {
+
+		const A = this.A;
+		const B = this.B;
+		const C = this.C;
+		const N = A.length;
+
+		B.length = N;
+		C.length = N;
+
+		// coefficients for a 5 point closed path
+		const c0 = 3.0 / 11.0;
+		const c1 = -1.0 / 11.0;
+		const c2 = 1.0 / 11.0;
+		const c3 = -3.0 / 11.0;
+		const c4 = 1;
+
+		// determine first control point
+		for (let i = 0; i < N; i++) {
+			B[i].x = A[(i + 1) % N].x * c0 + A[(i + 2) % N].x * c1 + A[(i + 3) % N].x * c2 + A[(i + 4) % N].x * c3 + A[i].x * c4;
+			B[i].y = A[(i + 1) % N].y * c0 + A[(i + 2) % N].y * c1 + A[(i + 3) % N].y * c2 + A[(i + 4) % N].y * c3 + A[i].y * c4;
+		}
+
+		// snap to grid
+		for (let i = 0; i < N; i++)
+			B[i] = {x: Math.round(B[i].x), y: Math.round(B[i].y)};
+
+		// mirror to second control point (only needed for encoded path string)
+		for (let i = 0; i < N; i++) {
+			C[i].x = 2 * A[(i + 1) % N].x - B[(i + 1) % N].x;
+			C[i].y = 2 * A[(i + 1) % N].y - B[(i + 1) % N].y;
+		}
+	};
+
+	this.draw = function (t) {
+		const A = this.A;
+		const B = this.B;
+		const C = this.C;
+		const N = A.length;
+		let d;
+
+		/*
+		 * control net
+		 */
+		d = 'M' + A[0].x + ',' + A[0].y + 'L' + B[0].x + ',' + B[0].y + 'L' + C[0].x + ',' + C[0].y +
+			'L' + A[1].x + ',' + A[1].y + 'L' + B[1].x + ',' + B[1].y + 'L' + C[1].x + ',' + C[1].y +
+			'L' + A[2].x + ',' + A[2].y + 'L' + B[2].x + ',' + B[2].y + 'L' + C[2].x + ',' + C[2].y +
+			'L' + A[3].x + ',' + A[3].y + 'L' + B[3].x + ',' + B[3].y + 'L' + C[3].x + ',' + C[3].y +
+			'L' + A[4].x + ',' + A[4].y + 'L' + B[4].x + ',' + B[4].y + 'L' + C[4].x + ',' + C[4].y + 'z';
+		path2.setAttribute("d", d); // hint1
+
+		/*
+		 * display curve
+		 */
+		d = 'M' + A[0].x + ',' + A[0].y +
+			' C' + B[0].x + ',' + B[0].y + ' ' + C[0].x + ',' + C[0].y + ' ' + A[1].x + ',' + A[1].y +
+			' S' + C[1].x + ',' + C[1].y + ' ' + A[2].x + ',' + A[2].y +
+			' S' + C[2].x + ',' + C[2].y + ' ' + A[3].x + ',' + A[3].y +
+			' S' + C[3].x + ',' + C[3].y + ' ' + A[4].x + ',' + A[4].y +
+			' S' + C[4].x + ',' + C[4].y + ' ' + A[0].x + ',' + A[0].y +
+			' z';
+		path1.setAttribute("d", d);
+
+		/*
+		 * first derivative
+		 */
+		let D1 = [];
+		for (let i = 0; i < N; i++) {
+			D1[i] = [{x: Math.round(A[i].x * (1 - t) + B[i].x * t), y: Math.round(A[i].y * (1 - t) + B[i].y * t)},
+				 {x: Math.round(B[i].x * (1 - t) + C[i].x * t), y: Math.round(B[i].y * (1 - t) + C[i].y * t)},
+				 {x: Math.round(C[i].x * (1 - t) + A[(i + 1) % N].x * t), y: Math.round(C[i].y * (1 - t) + A[(i + 1) % N].y * t)}];
+		}
+		d = '';
+		for (let i = 0; i < N; i++) {
+			const d1 = D1[i];
+			d += 'M' + d1[0].x + ',' + (d1[0].y - R) + 'a' + R + ',' + R + ' 0 1,0 0,' + (R * 2) + ' a' + R + ',' + R + ' 0 1,0 0,-' + (R * 2); // dot1 (two half arcs)
+			d += 'M' + d1[0].x + ',' + d1[0].y + 'L' + d1[1].x + ',' + d1[1].y; // line1
+			d += 'M' + d1[1].x + ',' + (d1[1].y - R) + 'a' + R + ',' + R + ' 0 1,0 0,' + (R * 2) + ' a' + R + ',' + R + ' 0 1,0 0,-' + (R * 2); // dot2
+			d += 'M' + d1[1].x + ',' + d1[1].y + 'L' + d1[2].x + ',' + d1[2].y; // line1
+			d += 'M' + d1[2].x + ',' + (d1[2].y - R) + 'a' + R + ',' + R + ' 0 1,0 0,' + (R * 2) + ' a' + R + ',' + R + ' 0 1,0 0,-' + (R * 2); // dot3
+		}
+		path3.setAttribute("d", d);
+
+		/*
+		 * second derivative
+		 */
+		let D2 = [];
+		for (let i = 0; i < N; i++) {
+			D2[i] = [{x: Math.round(D1[i][0].x * (1 - t) + D1[i][1].x * t), y: Math.round(D1[i][0].y * (1 - t) + D1[i][1].y * t)},
+				 {x: Math.round(D1[i][1].x * (1 - t) + D1[i][2].x * t), y: Math.round(D1[i][1].y * (1 - t) + D1[i][2].y * t)}];
+		}
+		d = '';
+		for (let i = 0; i < N; i++) {
+			const d2 = D2[i];
+			d += 'M' + d2[0].x + ',' + (d2[0].y - R) + 'a' + R + ',' + R + ' 0 1,0 0,' + (R * 2) + ' a' + R + ',' + R + ' 0 1,0 0,-' + (R * 2); // dot1
+			d += 'M' + d2[0].x + ',' + d2[0].y + 'L' + d2[1].x + ',' + d2[1].y; // line1
+			d += 'M' + d2[1].x + ',' + (d2[1].y - R) + 'a' + R + ',' + R + ' 0 1,0 0,' + (R * 2) + ' a' + R + ',' + R + ' 0 1,0 0,-' + (R * 2); // dot2
+		}
+		path4.setAttribute("d", d);
+
+		/*
+		 * third derivative
+		 */
+		let D3 = [];
+		for (let i = 0; i < N; i++) {
+			D3[i] = [{x: Math.round(D2[i][0].x * (1 - t) + D2[i][1].x * t), y: Math.round(D2[i][0].y * (1 - t) + D2[i][1].y * t)}];
+		}
+		d = '';
+		for (let i = 0; i < N; i++) {
+			const d3 = D3[i];
+			d += 'M' + d3[0].x + ',' + (d3[0].y - 2) + 'a' + R + ',' + R + ' 0 1,0 0,' + (R * 2) + ' a' + R + ',' + R + ' 0 1,0 0,-' + (R * 2); // dot1
+		}
+		path5.setAttribute("d", d);
+	}
+}
+
+function setDimensions() {
+	// set pads
+	for (let i = 0; i < pads.length; i++) {
+		pads[i].setAttribute("cx", window.curve.A[i].x.toString());
+		pads[i].setAttribute("cy", window.curve.A[i].y.toString());
+		// give pads theid index for event handler
+		pads[i].padNr = i;
+
+	}
+}
+
+let fps = 25;
+let t = 0;
+
+// create curve
+window.curve = new Curve();
+// scale coordinates to svg size
+setDimensions();
+// setup curve
+window.curve.calc();
+
+// state for event handlers
+let curel = 0, x0, y0, elx, ely;
+
+function mouseDown(event) {
+//        event.stopPropagation();
+	x0 = event.x;
+	y0 = event.y;
+	if (!x0 && !y0 && event.touches) {
+		// touchstart event
+		x0 = event.touches[0].clientX;
+		y0 = event.touches[0].clientY;
+	}
+	curel = event.target;
+	elx = curel.getAttribute("cx") * 1;
+	ely = curel.getAttribute("cy") * 1;
+}
+
+function mouseMove(event) {
+	if (curel) {
+		let evx = event.x;
+		let evy = event.y;
+		if (!evx && !evy && event.touches) {
+			// touchstart event
+			evx = event.touches[0].clientX;
+			evy = event.touches[0].clientY;
+		}
+
+		const x = elx + evx - x0;
+		const y = ely + evy - y0;
+
+		console.log(x + ' ' + y);
+		curel.setAttribute("cx", x.toString());
+		curel.setAttribute("cy", y.toString());
+		window.curve.A[curel.padNr] = {x: x, y: y};
+		window.curve.calc();
+	}
+}
+
+function mouseUp(event) {
+	curel = 0;
+}
+
+function run() {
+	setInterval(function () {
+		window.curve.draw(t);
+		// IEEE modulo to bound 0<=t<1
+		t = (t + 0.01) % 1;
+	}, 1000 / fps);
+
+	// state for event handlers
+	let curel = 0, x0, y0, elx, ely;
+
+	// attach mouse events
+	for (let i = 0; i < pads.length; i++) {
+		pads[i].addEventListener("mousedown", mouseDown);
+		pads[i].addEventListener("mousemove", mouseMove);
+		pads[i].addEventListener("mouseup", mouseUp);
+		pads[i].addEventListener("touchstart", mouseDown);
+		pads[i].addEventListener("touchmove", mouseMove);
+		pads[i].addEventListener("touchend", mouseUp);
+	}
+
+	// container mousemove handler (in case mouse moves outside dot during gesture)
+	addEventListener("mousemove", mouseMove);
+	addEventListener("mouseup", mouseUp);
+	addEventListener("touchmove", mouseMove);
+	addEventListener("touchend", mouseUp);
+
+}
+
+    ]]></script>
+
+</svg>
