@@ -1,6 +1,17 @@
+---
+layout: home
+title: "scripted-svg - Javascript animated SVG graphics"
+image: assets/favimage-472x472.jpg
+---
+
+\[grab and drag the pads\]  
+<embed src="scripted-svg-840x472.svg" type="image/svg+xml" width="840" height="472">
+
 # scripted-svg
 
-## Welcome to the Wonderful World of javascript animated SVG graphics
+Javascript animated SVG graphics
+
+### Welcome to the Wonderful World of embedded javascript
 
 Example of embedded javascript in a `SVG` image. Coding `SVG` is like coding `HTML` canvas.
 
@@ -13,8 +24,6 @@ Parked here for historics and inspirations.
 
 ## Demonstration
 
-View the `HTML` version for interactive example: [https://xyzzy.github.io/scripted-svg](https://xyzzy.github.io/scripted-svg)
-
 The SVG is interactive. You can drag the black pads to change the curve.
 
 You need to host the `SVG` image on GitHub-pages.
@@ -24,61 +33,48 @@ Standard `README.md` links do not open in a new window and `![]()` images miss r
 
 Some suggested ways of using a `SVG` image (size is 500x500):
 
-<dl>
-<dt>Inline image (with javascript disabled) wrapped in whatever you pleases</dt>
-<dd>
+- Inline image (with javascript disabled) wrapped in whatever you pleases
+
 
 ```html
-<img src="scripted-svg.svg" width="200" height="200" alt="SVC">
+        <img src="scripted-svg-500x500.svg" width="200" height="200" alt="SVC">
 ```
 
-<img src="scripted-svg.svg" width="200" height="200" alt="SVC">
-</dd>
+<img src="scripted-svg-500x500.svg" width="200" height="200" alt="SVC">
 
-<dt>Inline image (with javascript enabled) wrapped in whatever you pleases</dt>
-<dd>
+
+
+- Inline image (with javascript enabled) wrapped in whatever you pleases
 
 ```html
-<embed src="https://xyzzy.github.io/scripted-svg/scripted-svg.svg" type="image/svg+xml">
+        <embed src="https://xyzzy.github.io/scripted-svg/scripted-svg-500x500.svg" type="image/svg+xml">
 ```
 
-<embed src="https://xyzzy.github.io/scripted-svg/scripted-svg.svg" type="image/svg+xml">
+<embed src="https://xyzzy.github.io/scripted-svg/scripted-svg-500x500.svg" type="image/svg+xml" width="200" height="200">
 
 NOTE: Will only work in `HTML` as `README.md` removes `<embed>` tags, Otherwise: `SVG` is interactive, you can move the black pads to change the curve.
 
-NOTE: `HTML` version: [https://xyzzy.github.io/scripted-svg](https://xyzzy.github.io/scripted-svg)
-</dd>
+NOTE: Browsers have a broken implementation as they do not scale mouse coordinates.
 
-<dt>For `README.md` combine both, javascript disabled preview that opens new tab with enabled version</dt>
-<dd>
+
+- Wrap the `SVG` with HTML to apply styling
+
 
 ```html
-<a href="https://xyzzy.github.io/scripted-svg/scripted-svg.svg" target="_blank"><img src="scripted-svg.svg" width="200" height="200" alt="SVC"></a>
+        <a href="https://xyzzy.github.io/scripted-svg/scripted-svg-500x500.svg" target="_blank"><img src="scripted-svg-500x500.svg" width="200" height="200" alt="SVC"></a>
 ```
 
-<a href="https://xyzzy.github.io/scripted-svg/scripted-svg.svg" target="_blank"><img src="scripted-svg.svg" width="200" height="200" alt="SVC"></a>
+<a href="https://xyzzy.github.io/scripted-svg/scripted-svg.html" target="_blank"><img src="scripted-svg-500x500.svg" width="200" height="200" alt="SVC"></a>
 
 NOTE: The `SVG` when opened will full-screen.
-</dd>
 
-<dt>Wrap the `SVG` with HTML to apply styling</dt>
-<dd>
+## Source code
 
-```html
-<a href="https://xyzzy.github.io/scripted-svg/scripted-svg.svg" target="_blank"><img src="scripted-svg.svg" width="200" height="200" alt="SVC"></a>
+Grab one of the tarballs at [https://github.com/xyzzy/scripted-svg/releases](https://github.com/xyzzy/scripted-svg/releases) or checkout the latest code:
+
+```sh
+        git clone https://github.com/xyzzy/scripted-svg.git
 ```
-
-<a href="https://xyzzy.github.io/scripted-svg/scripted-svg.html" target="_blank"><img src="scripted-svg.svg" width="200" height="200" alt="SVC"></a>
-</dd>
-</dl>
-
-## Requirements
-
-*   none
-
-## Installation
-
-*   none
 
 ## Versioning
 
