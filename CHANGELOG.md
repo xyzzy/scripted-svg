@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ```
+2021-03-20 23:21:18 Added: Demo sub-headers.
 2021-03-19 16:45:27 Added: `scripted-svg-840x472.svg`.
 2021-03-19 13:10:37 Added: `moonwalk` theme.
 ```

@@ -33,7 +33,7 @@ Standard `README.md` links do not open in a new window and `![]()` images miss r
 
 Some suggested ways of using a `SVG` image (size is 500x500):
 
-- Inline image (with javascript disabled) wrapped in whatever you pleases
+### Inline image (with javascript disabled) wrapped in whatever you pleases
 
 
 ```html
@@ -44,7 +44,7 @@ Some suggested ways of using a `SVG` image (size is 500x500):
 
 
 
-- Inline image (with javascript enabled) wrapped in whatever you pleases
+### Inline image (with javascript enabled) wrapped in whatever you pleases
 
 ```html
         <embed src="https://xyzzy.github.io/scripted-svg/scripted-svg-500x500.svg" type="image/svg+xml">
@@ -57,7 +57,7 @@ NOTE: Will only work in `HTML` as `README.md` removes `<embed>` tags, Otherwise:
 NOTE: Browsers have a broken implementation as they do not scale mouse coordinates.
 
 
-- Wrap the `SVG` with HTML to apply styling
+### Wrap the `SVG` with HTML to apply styling
 
 
 ```html
