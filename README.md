@@ -73,7 +73,7 @@ NOTE: The `SVG` when opened will full-screen.
 Grab one of the tarballs at [https://github.com/xyzzy/scripted-svg/releases](https://github.com/xyzzy/scripted-svg/releases) or checkout the latest code:
 
 ```sh
-        git clone https://github.com/xyzzy/scripted-svg.git
+  git clone https://github.com/xyzzy/scripted-svg.git
 ```
 
 ## Versioning
